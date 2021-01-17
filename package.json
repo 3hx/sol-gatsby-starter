@@ -1,0 +1,38 @@
+{
+  "name": "sol-gatsby-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "generate": "graphql-codegen --config codegen.yaml"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "cross-fetch": "^3.0.6",
+    "gatsby": "^2.30.3",
+    "gatsby-plugin-image": "^0.5.1",
+    "gatsby-plugin-offline": "^3.8.0",
+    "gatsby-plugin-postcss": "^3.5.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sharp": "^2.12.2",
+    "gatsby-plugin-sitemap": "^2.10.0",
+    "gatsby-source-filesystem": "^2.9.1",
+    "gatsby-transformer-sharp": "^2.10.1",
+    "postcss": "^8.2.4",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^4.1.3",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.20.0",
+    "@graphql-codegen/fragment-matcher": "^2.0.1",
+    "@graphql-codegen/typescript": "^1.20.0",
+    "@graphql-codegen/typescript-operations": "^1.17.13",
+    "@graphql-codegen/typescript-react-apollo": "^2.2.1",
+    "@types/react-helmet": "^6.1.0"
+  }
+}
